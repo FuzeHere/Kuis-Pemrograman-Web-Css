@@ -17,12 +17,13 @@ header nav ul {
 header nav ul li {
   display: inline;
   margin: 0px 10px;
-  border-right: 1px solid /* ccs vanila kedua */ #f9f9f9;
+  border-right: 1px solid #f9f9f9;
   padding-right: 20px;
 }
 header nav ul li a:hover {
   font-weight: bold;
   background: blue; /* ccs vanila pertama */
+  transform: scale(1, 2);
 }
 header nav ul li a {
   color: #fff;
@@ -36,6 +37,11 @@ section {
   max-width: 900px;
   margin: auto;
 }
+
+img:hover {
+  transform: scale(1.05); /* ccs vanila kedua */
+}
+
 .menu-item img {
   max-width: 40%;
   border-radius: 10px;
